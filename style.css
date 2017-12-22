@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Hind|Nunito+Sans|Slabo+27px|Source+Serif+Pro");
+.gif{
+  position: fixed;
+     bottom: 0;
+    right: 0;
+  wigth=8px;
+}
+body {
+  background-color: #fffff0;
+  background-size: 100% 100%;
+  font-family: "Hind", sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+div.tab1 {
+  max-width: 770px;
+  margin: auto;
+}
+table.tab1 {
+  background-image: url("https://downloader.disk.yandex.ru/preview/4760b74a0226a0fb4c24074df4134ab0d710911dcbd592563cebcf74cfad69a1/inf/fKqInKw3d7bLFOeFnMGnhCca-XGiliXPaUig64CHsfIA1X5QW5y1KUHtoVFnSVD3WYVZSOEaM4QzSHD_qUkyuPm_ubI2yvlZm2QmUJ7BX2Or8npumZHI4midPdWhecNq?uid=0&filename=%D1%84%D0%BE%D0%BD%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=S&crop=0");
+  background-size: 100% 100%;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+.tab2 td {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+th.tab1 {
+  font-size: 50px;
+  padding: 20px;
+  text-shadow: 3px 2px #535353;
+}
+.about-bitcoin {
+  padding-left: 10px;
+}
+
+h1 {
+  margin-top: 2em;
+}
+h1,
+hr {
+  line-height: 0;
+  padding-left: 10px;
+}
+.bitcoin {
+  padding-top: 10px;
+}
+#i {
+  text-indent: 40px;
+}
+
+.ramka-bitcoin {
+  background-color: #f5e3d4;
+  border-radius: 15px;
+  width: 310px;
+  border: 1px solid black;
+  padding-top: 10px;
+  text-align: center;
+  float: right;
+  margin-top: 0;
+}
+
+.ramka-bitcoin img {
+  margin-top: 0 auto;
+}
+td.tab2 {
+  width: 150px;
+}
+.tab2 {
+  text-align: left;
+  font-size: 12px;
+  font-family: Arial;
+}
+ {
+  float: right;
+}
+
+.work {
+  position: relative;
+}
+.key {
+  position: absolute;
+  left: 0;
+  top: 15em;
+  width: 400px;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #ffc966;
+}
+.key img {
+  float: right;
+}
+.adres {
+  position: static;
+  top: 15em;
+  max-width: 700px;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #b3ffcc;
+  margin-left: 440px;
+}
+.konfidenc {
+  border: 1px solid;
+  border-radius: 15px;
+  margin-top: 10%;
+  padding: 10px;
+  background-color: #ccffff;
+}
+.conf-img img {
+  border: 1px solid;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.conf-img {
+  border: 1px solid;
+  width: 430px;
+  text-align: center;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #e6ffff;
+}
+.security {
+  border-left: 6px solid #8b4513;
+  background-color: #fcf1e9;
+  padding: 10px;
+  width:85%;
+  float:left;
+  
+ 
+}
+.cold-save{
+  border: 1px solid;
+  background-color: #e06f1f;
+  padding: 10px;
+  width:15%;
+  margin-left:20px;
+  
+}
+.serv{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+.fizbit img{
+  float:left;
+  padding:10px;
+}
+.gox{
+   border: 1px solid;
+  background-color: #8e2525;
+  padding: 10px;
+  width:20%;
+  margin:10px;
+  
+}
+.bitstamp{
+   border: 1px solid;
+  background-color: #b38f00;
+  padding: 10px;
+  width:20%;
+  margin:10px;
+  
+}
+.cryptsy{
+    border: 1px solid;
+  background-color:  #009900;
+  padding: 10px;
+  width:15%;
+  margin:10px;
+  
+}
+.kraken{
+    border: 1px solid;
+  background-color: #cc00cc;
+  padding: 10px;
+  width:15%;
+  margin:10px;
+  
+}
+.bitfinex{
+      border: 1px solid;
+  background-color:  #0040ff;
+  padding: 10px;
+  width:30%;
+  margin:10px;
+}
+.economy2{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:stretch;
+}
+.btc{
+  border: 1px solid;
+  background-color:  #666699;
+  padding: 10px;
+  width:100%;
+  margin:0 auto;
+}
+.krit1{
+  position:relative;
+  top:0;
+  left:0;
+  width:100%;
+  background-color:#ffe680;
+  padding-bottom:30px;
+  padding-left:10px;
+  padding-right:10px;
+  
+}
+.krit2{
+  position:absolute;
+  left:60px;
+  background-color:#ff751a;
+  top:90%;
+  width:80%;
+  padding-bottom:30px;
+  padding-left:10px;
+  padding-right:10px;
+  
+}
+.krit3{
+  position:absolute;
+  left:10px;
+  background-color:#b0c4de;
+  top:200%;
+  width:90%;
+  padding-bottom:30px;
+  padding-left:10px;
+  padding-right:10px;
+  
+}
